@@ -295,6 +295,30 @@
 			<key>uuid</key>
 			<string>50A8E9F6-7F20-46DD-B75C-2E6912568CF8</string>
 		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>name</key>
+			<string>Setup New Symfony App With Vendors (requires GIT)</string>
+			<key>output</key>
+			<string>showAsHTML</string>
+			<key>script</key>
+			<string>git-setup-symfony.php</string>
+			<key>uuid</key>
+			<string>6B5CE518-EC3E-4011-9E28-E8133F6193C1</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>name</key>
+			<string>Setup New Symfony App Without Vendors (requires GIT)</string>
+			<key>output</key>
+			<string>showAsHTML</string>
+			<key>script</key>
+			<string>git-setup-symfony-no-vendors.php</string>
+			<key>uuid</key>
+			<string>5717E195-8826-42E1-BF42-2C96A6AE9F10</string>
+		</dict>
 	</array>
 </dict>
 </plist>

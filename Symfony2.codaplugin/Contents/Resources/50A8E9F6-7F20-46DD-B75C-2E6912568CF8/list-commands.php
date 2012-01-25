@@ -7,9 +7,10 @@ if ($sitepath) {
   chdir($sitepath);
     
   exec("php app/console list", $out);
-  
+  echo "<pre>";
   foreach ($out as $key => $value) {
-    	echo $value . "<br/>\n";
+    	echo $value . "\n";
     }
+  echo "</pre>";
 }
 ?>
