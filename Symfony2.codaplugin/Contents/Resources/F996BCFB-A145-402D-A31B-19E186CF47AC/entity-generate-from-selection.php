@@ -10,11 +10,11 @@ $sitepath = getenv('CODA_SITE_LOCAL_PATH');
 if ($sitepath) {
   chdir($sitepath);
   
-  if (substr($string, 0, 1) != '\\') {
-  	$string = substr_replace($string, '\\', 0, 0);
+  if (substr($string, 0, 1) == '\\') {
+  	$string = substr_replace($string, '', 0, 1);
   }    
-    
-  $entity = str_ireplace('\Entity', '', $string);
+  
+  $entity =  str_ireplace('\\', '/', $string);  
     
   exec("php app/console doctrine:generate:entities $entity");
 }
