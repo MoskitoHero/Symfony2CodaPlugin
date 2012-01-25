@@ -22,8 +22,18 @@ It obviously requires you to have set up Symfony2 at the root of that Site.
 `php app/console cache:clear`
 
 ###Doctrine
+List of available commands:
+
+* **Create Database**
+* **Create Schema**
 * **Force Update the Database**  
 `php app/console doctrine:schema:update --force`
+* **Clear Metadata cache**
+* **Clear Query Cache**
+* **Clear Result Cache**
+* **Mapping Info**
+* **Ensure Production Settings**
+* **Drop Schema**
 
 ###Entities
 * **Generate From File**  
@@ -39,7 +49,36 @@ Generates all the entities of the bundle you're currently editing in the src fol
 `php app/console doctrine:generate:entities Acme/MyBundle`  
 You need to be in the `Entity` folder.
 
+###Debug
+* **Debug Container**
+* **Debug Routes**
+
+###ACL
+* **Init**
+
 ###Other Commands
-It's coming…
+* **List commands**  
+Shows up a list of available commands in the console.
+* **Setup New Symfony App With Vendors**  
+*This command requires that you have set up GIT on your machine.*  
+It will fetch the latest Symfony2 version from GitHub into the Coda Site root, install the vendors, and perform an app/check.  
+For your information, the commands that are called up are :
+
+		git clone http://github.com/symfony/symfony-standard.git
+		mv symfony-standard/* .
+		rm -rf .git
+		rm -rf symfony-standard
+		php app/check.php
+		php bin/vendors install
+
+* **Setup New Symfony App Without Vendors**  
+*This command requires that you have set up GIT on your machine.*  
+It will fetch the latest Symfony2 version from GitHub into the Coda Site root.  
+For your information, the commands that are called up are :
+
+		git clone http://github.com/symfony/symfony-standard.git
+		mv symfony-standard/* .
+		rm -rf .git
+		rm -rf symfony-standard
 
 More on [my website](http://cedric.delalande.me/).
