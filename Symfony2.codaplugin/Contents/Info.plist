@@ -67,16 +67,114 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>name</key>
+					<string>Create Database</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-create-database.php</string>
+					<key>uuid</key>
+					<string>C0A7B3F4-9E21-43D2-B89E-07F385027802</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Create Schema</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-create-schema.php</string>
+					<key>uuid</key>
+					<string>20D25742-09A0-4F29-A30A-399D70F05465</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
-					<string>Force Update</string>
+					<string>Force Update Schema</string>
 					<key>output</key>
 					<string>showAsHTML</string>
+					<key>postprocess</key>
+					<string>none</string>
 					<key>script</key>
 					<string>doctrine-update.php</string>
 					<key>uuid</key>
 					<string>911A6C02-B928-46A2-AE1F-398EAE6107B8</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Clear Metadata Cache</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-clear-metadata.php</string>
+					<key>uuid</key>
+					<string>1AFAFAFD-ED72-430D-A2E9-D42538960D38</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Clear Query Cache</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-clear-query.php</string>
+					<key>uuid</key>
+					<string>0F2EE3D1-7A64-40FA-92D4-A73839E64356</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Clear Result Cache</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-clear-result.php</string>
+					<key>uuid</key>
+					<string>17075332-0515-4E6E-BC48-38A53AEA8D92</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Mapping Info</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-mapping-info.php</string>
+					<key>uuid</key>
+					<string>60F95822-8B66-4691-97FF-391828EC747F</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Ensure Production Settings</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-ensure-production.php</string>
+					<key>uuid</key>
+					<string>6B13A558-CF74-47B0-9E0A-7DC71AF4E0F7</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Force Drop Schema</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>doctrine-drop-schema.php</string>
+					<key>uuid</key>
+					<string>B7FF29DD-EF8A-4161-B673-21BCAC1049AA</string>
 				</dict>
 			</array>
 			<key>name</key>
@@ -88,18 +186,14 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
-					<key>input</key>
-					<string>selection</string>
-					<key>keyEquivalentConflict</key>
-					<false/>
 					<key>name</key>
-					<string>Generate From Selection</string>
+					<string>Generate Bundle Entities</string>
 					<key>output</key>
 					<string>showAsHTML</string>
 					<key>script</key>
-					<string>entity-generate-from-selection.php</string>
+					<string>generate-bundle-entities.php</string>
 					<key>uuid</key>
-					<string>F996BCFB-A145-402D-A31B-19E186CF47AC</string>
+					<string>5F2DD132-9B92-480C-BEAB-040D47178AAB</string>
 				</dict>
 				<dict>
 					<key>fallbackInput</key>
@@ -118,34 +212,88 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
-					<string>Generate Bundle Entities</string>
+					<string>Generate From Selection</string>
 					<key>output</key>
 					<string>showAsHTML</string>
 					<key>script</key>
-					<string>generate-bundle-entities.php</string>
+					<string>entity-generate-from-selection.php</string>
 					<key>uuid</key>
-					<string>5F2DD132-9B92-480C-BEAB-040D47178AAB</string>
+					<string>F996BCFB-A145-402D-A31B-19E186CF47AC</string>
 				</dict>
 			</array>
 			<key>name</key>
 			<string>Entities</string>
 		</dict>
 		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Debug Container</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>debug-container.php</string>
+					<key>uuid</key>
+					<string>F32E86D4-CF15-44C8-89E1-26A9D60F69A9</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>keyEquivalent</key>
+					<string></string>
+					<key>keyEquivalentConflict</key>
+					<true/>
+					<key>name</key>
+					<string>Debug Routes</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>debug-routes.php</string>
+					<key>uuid</key>
+					<string>4786D6E6-4ABB-4E5F-82A9-505FC1DF3E6A</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>name</key>
+					<string>Init</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>acl-init.php</string>
+					<key>uuid</key>
+					<string>376DD5D0-DF02-414A-AFBA-9A6356AE810C</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>ACL</string>
+		</dict>
+		<dict>
 			<key>fallbackInput</key>
 			<string>none</string>
-			<key>keyEquivalent</key>
-			<string></string>
-			<key>keyEquivalentConflict</key>
-			<true/>
 			<key>name</key>
-			<string>Debug Routes</string>
+			<string>List Commands</string>
 			<key>output</key>
 			<string>showAsHTML</string>
 			<key>script</key>
-			<string>debug-routes.php</string>
+			<string>list-commands.php</string>
 			<key>uuid</key>
-			<string>4786D6E6-4ABB-4E5F-82A9-505FC1DF3E6A</string>
+			<string>50A8E9F6-7F20-46DD-B75C-2E6912568CF8</string>
 		</dict>
 	</array>
 </dict>
