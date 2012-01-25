@@ -7,7 +7,12 @@ if ($sitepath) {
   chdir($sitepath);
   
   
-  exec("php app/console cache:warmup");
+  exec("php app/console cache:warmup", $out);
+  
+  foreach ($out as $key => $value) {
+  	echo $value . "<br/>\n";
+  }
+  
 }
 
 ?>

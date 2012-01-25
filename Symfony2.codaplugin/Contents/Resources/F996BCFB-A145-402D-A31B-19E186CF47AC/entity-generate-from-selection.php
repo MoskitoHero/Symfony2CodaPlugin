@@ -16,6 +16,10 @@ if ($sitepath) {
   
   $entity =  str_ireplace('\\', '/', $string);  
     
-  exec("php app/console doctrine:generate:entities $entity");
+  exec("php app/console doctrine:generate:entities $entity", $out);
+  
+  foreach ($out as $key => $value) {
+  	echo $value . "<br/>\n";
+  }
 }
 ?>

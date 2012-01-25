@@ -16,8 +16,11 @@ if ($sitepath) {
     
   $pattern = '/([A-Za-z0-9]*)\.php/';
   $entity = preg_replace($pattern, '$1', $filename);
-  echo   "php app/console doctrine:generate:entities $entity";
   
-  exec("php app/console doctrine:generate:entities $entity");
+  exec("php app/console doctrine:generate:entities $entity", $out);
+  
+  foreach ($out as $key => $value) {
+  	echo $value . "<br/>\n";
+  }
 }
 ?>

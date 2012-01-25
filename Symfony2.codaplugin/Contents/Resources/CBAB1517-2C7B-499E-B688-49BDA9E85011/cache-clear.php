@@ -7,7 +7,12 @@ if ($sitepath) {
   chdir($sitepath);
   
   
-  exec("php app/console cache:clear");
+  exec("php app/console cache:clear", $out);
+  
+  foreach ($out as $key => $value) {
+  	echo $value . "<br/>\n";
+  }
+  
 }
 
 ?>

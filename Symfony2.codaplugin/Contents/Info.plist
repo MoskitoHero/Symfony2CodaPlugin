@@ -37,7 +37,7 @@
 					<key>name</key>
 					<string>Clear</string>
 					<key>output</key>
-					<string>discard</string>
+					<string>showAsHTML</string>
 					<key>script</key>
 					<string>cache-clear.php</string>
 					<key>uuid</key>
@@ -71,6 +71,8 @@
 					<false/>
 					<key>name</key>
 					<string>Force Update</string>
+					<key>output</key>
+					<string>showAsHTML</string>
 					<key>script</key>
 					<string>doctrine-update.php</string>
 					<key>uuid</key>
@@ -93,7 +95,7 @@
 					<key>name</key>
 					<string>Generate From Selection</string>
 					<key>output</key>
-					<string>discard</string>
+					<string>showAsHTML</string>
 					<key>script</key>
 					<string>entity-generate-from-selection.php</string>
 					<key>uuid</key>
@@ -107,7 +109,7 @@
 					<key>name</key>
 					<string>Generate From File</string>
 					<key>output</key>
-					<string>discard</string>
+					<string>showAsHTML</string>
 					<key>script</key>
 					<string>entity-generate-from-file.php</string>
 					<key>uuid</key>
@@ -119,15 +121,31 @@
 					<key>name</key>
 					<string>Generate Bundle Entities</string>
 					<key>output</key>
-					<string>discard</string>
+					<string>showAsHTML</string>
 					<key>script</key>
-					<string>generate-bundle-entites.php</string>
+					<string>generate-bundle-entities.php</string>
 					<key>uuid</key>
-					<string>01D53586-D275-495C-8465-6D0ED1C2B984</string>
+					<string>5F2DD132-9B92-480C-BEAB-040D47178AAB</string>
 				</dict>
 			</array>
 			<key>name</key>
 			<string>Entities</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>keyEquivalent</key>
+			<string></string>
+			<key>keyEquivalentConflict</key>
+			<true/>
+			<key>name</key>
+			<string>Debug Routes</string>
+			<key>output</key>
+			<string>showAsHTML</string>
+			<key>script</key>
+			<string>debug-routes.php</string>
+			<key>uuid</key>
+			<string>4786D6E6-4ABB-4E5F-82A9-505FC1DF3E6A</string>
 		</dict>
 	</array>
 </dict>
