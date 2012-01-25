@@ -8,7 +8,7 @@ It has been tested on Coda 1.7.4
 ##Installation Instructions
 Download the zip file.  
 Unzip.  
-Double-click the Symfony2CodaPlugin.codaplugin bundle, or drag and drop on Coda's icon.
+Double-click the Symfony2.codaplugin bundle, or drag and drop on Coda's icon.
 Use it!
 
 ##Usage
@@ -19,7 +19,7 @@ It obviously requires you to have set up Symfony2 at the root of that Site.
 `php app/console cache:clear`  
 
 * **Warm Up Cache**  
-`hp app/console cache:clear`
+`php app/console cache:clear`
 
 ###Doctrine
 * **Force Update the Database**  
