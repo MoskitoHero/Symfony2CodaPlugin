@@ -67,6 +67,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Create Database</string>
 					<key>output</key>
@@ -79,6 +81,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Create Schema</string>
 					<key>output</key>
@@ -107,6 +111,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Clear Metadata Cache</string>
 					<key>output</key>
@@ -119,6 +125,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Clear Query Cache</string>
 					<key>output</key>
@@ -131,6 +139,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Clear Result Cache</string>
 					<key>output</key>
@@ -143,6 +153,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Mapping Info</string>
 					<key>output</key>
@@ -155,6 +167,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Ensure Production Settings</string>
 					<key>output</key>
@@ -167,6 +181,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Force Drop Schema</string>
 					<key>output</key>
@@ -186,6 +202,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Generate Bundle Entities</string>
 					<key>output</key>
@@ -235,6 +253,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Debug Container</string>
 					<key>output</key>
@@ -270,6 +290,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Init</string>
 					<key>output</key>
@@ -286,6 +308,8 @@
 		<dict>
 			<key>fallbackInput</key>
 			<string>none</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
 			<key>name</key>
 			<string>List Commands</string>
 			<key>output</key>
@@ -298,6 +322,8 @@
 		<dict>
 			<key>fallbackInput</key>
 			<string>none</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
 			<key>name</key>
 			<string>Setup New Symfony App With Vendors (requires GIT)</string>
 			<key>output</key>
@@ -310,6 +336,8 @@
 		<dict>
 			<key>fallbackInput</key>
 			<string>none</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
 			<key>name</key>
 			<string>Setup New Symfony App Without Vendors (requires GIT)</string>
 			<key>output</key>
