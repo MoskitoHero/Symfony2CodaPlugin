@@ -9,7 +9,7 @@ if ($sitepath) {
   $commands = array(
   	'git clone http://github.com/symfony/symfony-standard.git',
   	'cd symfony-standard',
-  	'git checkout tags/v2.0.10',
+  	'git checkout tags/v2.0.15',
   	'cd ..',
   	'mv symfony-standard/* . ',
   	'rm -rf .git',
