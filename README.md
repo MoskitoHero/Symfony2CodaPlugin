@@ -1,9 +1,9 @@
 #Symfony2 Coda Plugin
-This is  a basic Coda plugin to ease the most common tasks when developing with [Symfony2](http://www.symfony.com) on Panic's [Coda](http://www.panic.com/coda/) app.
+This is  a basic Coda2 plugin to ease the most common tasks when developing with [Symfony2](http://www.symfony.com) on Panic's [Coda](http://www.panic.com/coda/) app.
 
-It also allows you to install Symfony2 right from within Coda.
+It also allows you to install Symfony2 right from within Coda2.
 
-It has been tested on Coda 1.7.5
+It has been tested on Coda 2. This is the 64 bits version of the plugin. If you want a version for Coda 1.7.x, download a version based on a 0.1.x tag.
 
 ##Installation Instructions
 Download the zip file.  
